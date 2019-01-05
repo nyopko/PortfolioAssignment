@@ -1,0 +1,61 @@
+#introCard{
+    /* margin-top: -8vh; */
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    height: 100vh;
+}
+
+#introText{
+    padding-top: 20vh;
+}
+
+#contactText{
+    padding-top: 5%;
+}
+
+#aboutMe{
+    margin-top: -10vh;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    height: 100vh;
+}
+
+.profilePic{
+    height: 50vh;
+    width: 40vh;
+    position: relative; 
+}
+
+.fa {
+    padding: 20px;
+    width: 150px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #contactMe{
+    margin-top: -10vh;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    height: 100vh;
+}
+
+#myWork{
+    margin-top: -10vh;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    height: 100vh;
+}
+
+
+.card{
+    float: left;
+    margin: 10vh;
+}
+  
+  
