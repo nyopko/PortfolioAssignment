@@ -1,8 +1,9 @@
 #introCard{
-    /* margin-top: -8vh; */
     text-align: center;
-    background-color: yellow;
-    color: black;
+    background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);
+    background: linear-gradient(to right, #190A05, #870000);
+    color: white;
     height: 100vh;
 }
 
@@ -15,10 +16,12 @@
 }
 
 #aboutMe{
-    margin-top: -10vh;
+    margin-top: -8vh;
     text-align: center;
-    background-color: yellow;
-    color: black;
+    background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);
+    background: linear-gradient(to right, #190A05, #870000);
+    color: white;
     height: 100vh;
 }
 
@@ -39,16 +42,20 @@
     margin-top: -10vh;
     margin-bottom: 0;
     text-align: center;
-    background-color: yellow;
-    color: black;
+    background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);
+    background: linear-gradient(to right, #190A05, #870000);
+    color: white;
     height: 100vh;
 }
 
 #myWork{
     margin-top: -10vh;
     text-align: center;
-    background-color: yellow;
-    color: black;
+    background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);
+    background: linear-gradient(to right, #190A05, #870000);
+    color: white;
     height: 100vh;
 }
 
@@ -58,19 +65,8 @@
     margin: 10vh;
 }
 
-/* @media (min-width: 768px) {
-    .navbar-nav {
-      width: 100%;
-      text-align: center;
-    }
-    .navbar-nav > li {
-      float: none;
-      display: inline-block;
-    }
-    .navbar-nav > li.navbar-right {
-      float: right !important;
-    }
-  } */
   
+/* Navbar styling */
 
-  
+
+

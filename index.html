@@ -2,137 +2,114 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nick Yopko - Portfolio</title>
-    <link rel="stylesheet" type="reset/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="assets/js/script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nick Yopko - Portfolio</title>
+  <link rel="stylesheet" type="reset/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="assets/js/script.js"></script>
 
 </head>
 
 <body>
 
-<!-- Navbar here -->
+  <!-- Navbar here -->
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Left</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="//codeply.com">Codeply</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-        </ul>
+  <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+      <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Nick Yopko</a>
+              </li>
+          </ul>
+      </div>
+      <div class="mx-auto order-0">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      </div>
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link active" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="#">Work</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="#">Contact</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+
+<!-- End Navbar -->
+
+<!-- Main intro page -->
+
+  <div class="jumbotron jumbotron-fluid" id="introCard">
+    <div class="container">
+      <h1 class="display-4" id="introText">Portfolio</h1>
+      <p class="lead">Here are some examples of my work.</p>
+      <button type="button" class="btn btn-primary btn-lg" id="myButton">See for yourself!</button>
+
     </div>
-    <div class="mx-auto order-0">
-        <a class="navbar-brand mx-auto" href="#">Navbar 2</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  </div>
+
+  <!-- end intro page  -->
+
+
+  <div class="jumbotron jumbotron-fluid" id="aboutMe">
+    <br>
+    <div class="container">
+      <h1 class="display-4">About Me</h1>
+      <p class="lead" id="aboutText">Associate Editor for a leading electronic dance music publication. Worked in
+        digital/social media marketing for over ﬁve years with hundreds of successful campaigns under my belt.
+      </p>
+      <img src="assets/img/profilepic.jpg" class="profilePic">
     </div>
-    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Right</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+  </div>
 
-<!-- 
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Nick Yopko</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#aboutMe">About Me</a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#myWork">My Work</a>
-                    </li>
-                    <li class="nav-item active">
-                            <a class="nav-link" href="#contactMe">Contact Me</a>
-                          </li>
-                  </ul>
-                </div>
-              </nav>     -->
-
-
-    <div class="jumbotron jumbotron-fluid" id="introCard">
-        <div class="container">
-            <h1 class="display-4" id="introText">Portfolio</h1>
-            <p class="lead">Here are some examples of my work.</p>
-            <button type="button" class="btn btn-primary btn-lg" id="myButton">See for yourself!</button>
-
+  <div class="jumbotron jumbotron-fluid" id="myWork">
+    <div class="container">
+      <h1 class="display-4">My Work</h1>
+      <p class="lead" id="aboutText">Here are some of my past projects!
+      </p>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/img/audiorain.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Audio Rain</h5>
+          <p class="card-text">A web-based application using two APIs that gives users an album suggestion based on
+            their chosen location.</p>
         </div>
+      </div>
+
     </div>
+  </div>
+
+  <div class="jumbotron jumbotron-fluid" id="contactMe">
+    <div class="container">
+      <h1 class="display-4" id="contactText">Contact Me</h1>
+      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.<br>
+        <a href="https://www.facebook.com/yopko" class="fa fa-facebook fa-5x"></a>
+        <a href="https://www.instagram.com/yopkon/" class="fa fa-instagram fa-5x"></a>
+        <a href="https://github.com/nyopko" class="fa fa-github fa-5x"></a></p>
 
 
-    <div class="jumbotron jumbotron-fluid" id="aboutMe">
-        <div class="container">
-            <h1 class="display-4">About Me</h1>
-            <p class="lead" id="aboutText">Associate Editor for a leading electronic dance music publication. Worked in
-                digital/social media marketing for over ﬁve years with hundreds of successful campaigns under my belt.
-            </p>
-            <img src="assets/img/profilepic.jpg" class="profilePic">
-            <!-- <img src="assets/img/profilepic2.jpg" class="profilePic">
-                <img src="assets/img/profilepic.jpg" class="profilePic"> -->
-        </div>
     </div>
-
-    <div class="jumbotron jumbotron-fluid" id="myWork">
-            <div class="container">
-                <h1 class="display-4">My Work</h1>
-                <p class="lead" id="aboutText">Here are some of my past projects!
-                </p>
-                <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="assets/img/audiorain.jpg" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Audio Rain</h5>
-                          <p class="card-text">A web-based application using two APIs that gives users an album suggestion based on their chosen location.</p>
-                        </div>
-                      </div>
-                                         
-            </div>
-        </div>
-
-    <div class="jumbotron jumbotron-fluid" id="contactMe">
-        <div class="container">
-            <h1 class="display-4" id="contactText">Contact Me</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.<br>
-                <a href="https://www.facebook.com/yopko" class="fa fa-facebook fa-5x"></a>
-                <a href="https://www.instagram.com/yopkon/" class="fa fa-instagram fa-5x"></a>
-                <a href="https://github.com/nyopko" class="fa fa-github fa-5x"></a></p>
-           
-            
-        </div>
-    </div>
+  </div>
 
 
 
