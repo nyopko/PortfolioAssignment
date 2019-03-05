@@ -31,13 +31,6 @@
     position: relative; 
 }
 
-.fa {
-    padding: 20px;
-    width: 150px;
-    text-decoration: none;
-    text-align: center;
-  }
-
   #contactMe{
     margin-top: -10vh;
     margin-bottom: 0;
@@ -65,8 +58,29 @@
     margin: 10vh;
 }
 
+i{
+    color: white;
+}
+
+.work-cards{
+    color: black;
+}
+
+
   
-/* Navbar styling */
+
+    
+@media only screen and (max-width : 500px) {
+    .work-cards{
+    margin: 0 auto; /* Added */
+    float: none; 
+    margin-bottom: 10px;
+    }
+
+    #contactText{
+        margin-top: 70%;
+        }
+}
 
 
 
