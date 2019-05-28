@@ -68,8 +68,9 @@ i{
     margin-left: 2%;
 }
 
-#titleLinks{
-    color: black!important;
+.titleLinks{
+    color: white!important;
+    text-decoration: none!important;
 }
   
 
@@ -88,6 +89,21 @@ i{
 
 #navBar{
     background-color: black!important;
+}
+
+.workPics{
+    height: 25%;
+    width: 25%;
+}
+
+#ffText{
+    
+}
+
+#ffPic{
+    height: 50%;
+    width: 50%;
+    
 }
 
 
