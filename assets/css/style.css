@@ -33,13 +33,13 @@
 
   #contactMe{
     margin-top: -10vh;
-    margin-bottom: 0;
+    margin-bottom: -1px;
     text-align: center;
     background: #870000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #190A05, #870000);
     background: linear-gradient(to right, #190A05, #870000);
     color: white;
-    height: 100vh;
+    height: 250vh;
 }
 
 #myWork{
@@ -94,6 +94,10 @@ i{
 .workPics{
     height: 50%;
     width: 50%;
+}
+
+#contactContainer{
+    margin-top: 160vh;
 }
 
 
