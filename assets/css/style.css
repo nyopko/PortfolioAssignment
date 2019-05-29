@@ -74,19 +74,6 @@ i{
 }
   
 
-    
-@media only screen and (max-width : 500px) {
-    .work-cards{
-    margin: 0 auto; /* Added */
-    float: none; 
-    margin-bottom: 10px;
-    }
-
-    #contactText{
-        margin-top: 70%;
-        }
-}
-
 #navBar{
     background-color: black!important;
 }
@@ -101,4 +88,18 @@ i{
 }
 
 
+@media only screen and (max-width : 500px) {
+    .work-cards{
+    margin: 0 auto; /* Added */
+    float: none; 
+    margin-bottom: 10px;
+    }
 
+    #contactContainer{
+        margin-top: 30%;
+    }
+
+    #contactMe{
+        height: 100vh;
+    }
+}
