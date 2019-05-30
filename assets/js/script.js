@@ -10,7 +10,7 @@ $('.ml6 .letters').each(function(){
     $(this).html($(this).text().replace(/[-A-Za-z0-9!$#%^&*@()_+|~=`{}\[\]:";'<>?,.\/]/g, "<span class='letter'>$&</span>"));
   });
   
-  anime.timeline({loop: true})
+  anime.timeline({loop: false})
     .add({
       targets: '.ml6  .letter',
       translateY: ["1.1em", 0],
@@ -19,12 +19,6 @@ $('.ml6 .letters').each(function(){
       delay: function(el, i) {
         return 50 * i;
       }
-    }).add({
-      targets: '.ml6',
-      opacity: 0,
-      duration: 1000,
-      easing: "easeOutExpo",
-      delay: 1000
     });
 
 });
