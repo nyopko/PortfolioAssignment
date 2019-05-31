@@ -21,4 +21,8 @@ $('.ml6 .letters').each(function(){
       }
     });
 
+    AOS.init({
+        duration: 1200,
+      })
+
 });
