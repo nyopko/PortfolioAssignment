@@ -117,5 +117,20 @@ i{
 
     #contactMe{
         height: 100vh;
+        margin-top: -10vh;
+        padding-top: 40%;
     }
+
+    .ml6 {
+        position: relative;
+        font-size: 2em;
+      }
+
+      #myWork{
+        padding-top: 40%;
+      }
+
+      #aboutMe{
+        padding-top: 40%;
+      }
 }
