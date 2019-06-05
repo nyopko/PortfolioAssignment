@@ -33,9 +33,10 @@ $(document).ready(function () {
     });
 
     // Making Nav Bar close on click for mobile
-
-    $('.navbar-collapse a').click(function (e) {
-        $('.navbar-collapse').collapse('toggle');
-    });
+    if($(window).width() < 500){
+        $('.navbar-collapse a').click(function (e) {
+            $('.navbar-collapse').collapse('toggle');
+        });
+      }
 
 });

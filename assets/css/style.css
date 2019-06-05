@@ -128,7 +128,7 @@ i{
     #contactMe{
         height: 130vh;
         margin-top: -10vh;
-        padding-top: 40%;
+        padding-top: 20%;
     }
 
     .ml6 {
@@ -147,5 +147,11 @@ i{
 
       #contactContainer{
         margin-top: 40vh;
+    }
+
+    html {
+        margin-left: calc(100vw - 100%);
+        margin-right: 0;
+        overflow: auto;
     }
 }
