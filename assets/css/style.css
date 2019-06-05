@@ -126,7 +126,7 @@ i{
     }
 
     #contactMe{
-        height: 100vh;
+        height: 130vh;
         margin-top: -10vh;
         padding-top: 40%;
     }
@@ -141,6 +141,11 @@ i{
       }
 
       #aboutMe{
-        padding-top: 40%;
+        padding-top: 10%;
+        margin-top: -30%;
       }
+
+      #contactContainer{
+        margin-top: 40vh;
+    }
 }
