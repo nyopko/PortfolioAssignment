@@ -1,29 +1,28 @@
 #introCard{
     text-align: center;
-    background-image: url("../img/background.png");  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to right, #190A05, #870000);
-    background: linear-gradient(to right, #190A05, #870000); */
-    
+    background-image: url("../img/background.png");
+    font-family: 'Montserrat', sans-serif;
     color: white;
     height: 100vh;
 }
 
 #introText{
     padding-top: 20vh;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 #contactText{
     padding-top: 5%;
     margin-top: 20%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #aboutMe{
     margin-top: -8vh;
     text-align: center;
-    background-image: url("../img/background.png");  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to right, #190A05, #870000);
-    background: linear-gradient(to right, #190A05, #870000); */
+    background-image: url("../img/background.png");
+    font-family: 'Montserrat', sans-serif;
     color: white;
     height: 100vh;
 }
@@ -32,15 +31,15 @@
     height: 50vh;
     width: 40vh;
     position: relative; 
+    border:1px solid black;
 }
 
   #contactMe{
     margin-top: -10vh;
     margin-bottom: -1px;
     text-align: center;
-    background-image: url("../img/background.png");  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to right, #190A05, #870000);
-    background: linear-gradient(to right, #190A05, #870000); */
+    background-image: url("../img/background.png");
+    font-family: 'Montserrat', sans-serif;
     color: white;
     height: 250vh;
 }
@@ -48,9 +47,8 @@
 #myWork{
     margin-top: -10vh;
     text-align: center;
-    background-image: url("../img/background.png");  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to right, #190A05, #870000);
-    background: linear-gradient(to right, #190A05, #870000); */
+    background-image: url("../img/background.png");
+    font-family: 'Montserrat', sans-serif;
     color: white;
     height: 100vh;
 }
@@ -79,12 +77,14 @@ i{
 
 #navBar{
     background-color: rgb(250, 10, 130)!important;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .workPics{
     height: 50%;
     width: 50%;
     margin-bottom: 2%;
+    border:1px solid black;
 }
 
 .workDiv{
