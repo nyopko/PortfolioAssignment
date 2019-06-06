@@ -1,8 +1,9 @@
 #introCard{
     text-align: center;
-    background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #190A05, #870000);
-    background: linear-gradient(to right, #190A05, #870000);
+    background-image: url("../img/background.png");  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #190A05, #870000);
+    background: linear-gradient(to right, #190A05, #870000); */
+    
     color: white;
     height: 100vh;
 }
@@ -20,9 +21,9 @@
 #aboutMe{
     margin-top: -8vh;
     text-align: center;
-    background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #190A05, #870000);
-    background: linear-gradient(to right, #190A05, #870000);
+    background-image: url("../img/background.png");  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #190A05, #870000);
+    background: linear-gradient(to right, #190A05, #870000); */
     color: white;
     height: 100vh;
 }
@@ -37,9 +38,9 @@
     margin-top: -10vh;
     margin-bottom: -1px;
     text-align: center;
-    background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #190A05, #870000);
-    background: linear-gradient(to right, #190A05, #870000);
+    background-image: url("../img/background.png");  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #190A05, #870000);
+    background: linear-gradient(to right, #190A05, #870000); */
     color: white;
     height: 250vh;
 }
@@ -47,9 +48,9 @@
 #myWork{
     margin-top: -10vh;
     text-align: center;
-    background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #190A05, #870000);
-    background: linear-gradient(to right, #190A05, #870000);
+    background-image: url("../img/background.png");  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #190A05, #870000);
+    background: linear-gradient(to right, #190A05, #870000); */
     color: white;
     height: 100vh;
 }
@@ -77,7 +78,7 @@ i{
   
 
 #navBar{
-    background-color: black!important;
+    background-color: rgb(250, 10, 130)!important;
 }
 
 .workPics{
