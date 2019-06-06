@@ -49,7 +49,7 @@
     text-align: center;
     background-image: url("../img/background.png");
     font-family: 'Montserrat', sans-serif;
-    color: red;
+    color: white;
     height: 100vh;
 }
 
@@ -125,6 +125,7 @@ i{
 
     #contactContainer{
         margin-top: 30%;
+        margin-bottom: -1px;
     }
 
     #contactMe{
@@ -147,10 +148,6 @@ i{
         margin-top: -30%;
       }
 
-      #contactContainer{
-        margin-top: 70vh;
-        margin-bottom: -1px;
-    }
 
     html {
         margin-left: calc(100vw - 100%);
