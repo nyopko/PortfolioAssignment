@@ -124,12 +124,12 @@ i{
     }
 
     #contactContainer{
-        margin-top: 200%;
+        margin-top: 100%;
         margin-bottom: -1px;
     }
 
     #contactMe{
-        height: 130vh;
+        height: 200vh;
         margin-top: -10vh;
         padding-top: 20%;
     }
