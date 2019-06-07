@@ -43,7 +43,7 @@ $(document).ready(function () {
 
         $("#myButton").click(function () {
             $("html, body").animate({
-                scrollTop: $("#aboutMe").offset().top
+                scrollTop: $("#aboutRedirect").offset().top
             }, 2000);
         });
     }
