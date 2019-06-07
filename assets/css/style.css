@@ -135,7 +135,7 @@ i{
 
     #contactMe{
         height: 200vh;
-        margin-top: 0vh;
+        margin-top: -10vh;
         padding-top: 40%;
     }
 
@@ -159,7 +159,7 @@ i{
       }
 
       #workIntro{
-        margin-top: 40%;
+        /* margin-top: 40%; */
       }
 
 
