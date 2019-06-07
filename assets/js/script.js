@@ -35,11 +35,8 @@ $(document).ready(function () {
     // Making Nav Bar close on click for mobile
     if($(window).width() < 500){
         $('.navbar-collapse a').click(function (e) {
-            $('.navbar-collapse').collapse('toggle');
-        });
-        
-        $('#contactLink').click(function (e) {
             $('#contactLink').attr("href", "#contactMe");
+            $('.navbar-collapse').collapse('toggle');
         });
     }
 
