@@ -2,11 +2,11 @@ $(document).ready(function () {
 
     // auto scroll animation title screen
 
-    $("#myButton").click(function () {
-        $("html, body").animate({
-            scrollTop: $("#aboutMe").offset().top
-        }, 2000);
-    });
+    // $("#myButton").click(function () {
+    //     $("html, body").animate({
+    //         scrollTop: $("#aboutMe").offset().top
+    //     }, 2000);
+    // });
 
      // text animations title screen
 
@@ -39,6 +39,20 @@ $(document).ready(function () {
             $('#aboutLink').attr("href", "#aboutRedirect");
             // $('#workLink').attr("href", "#workRedirect");
             $('.navbar-collapse').collapse('toggle');
+        });
+
+        $("#myButton").click(function () {
+            $("html, body").animate({
+                scrollTop: $("#aboutRedirect").offset().top
+            }, 2000);
+        });
+    }
+
+    else{
+        $("#myButton").click(function () {
+            $("html, body").animate({
+                scrollTop: $("#aboutMe").offset().top
+            }, 2000);
         });
     }
 
