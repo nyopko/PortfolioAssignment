@@ -36,9 +36,8 @@ $(document).ready(function () {
     if($(window).width() < 500){
         $('.navbar-collapse a').click(function (e) {
             $('.navbar-collapse').collapse('toggle');
+            $('#contactLink').attr("href", "#contactMe");
         });
-
-        $('#contactLink').attr("href", "#contactMe");
       }
 
 });
