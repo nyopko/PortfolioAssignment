@@ -37,6 +37,7 @@ $(document).ready(function () {
         $('.navbar-collapse a').click(function (e) {
             $('#contactLink').attr("href", "#contactRedirect");
             $('#aboutLink').attr("href", "#aboutRedirect");
+            $('#workLink').attr("href", "#workRedirect");
             $('.navbar-collapse').collapse('toggle');
         });
     }
