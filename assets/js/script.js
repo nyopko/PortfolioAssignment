@@ -43,7 +43,7 @@ $(document).ready(function () {
 
         $("#myButton").click(function () {
             $("html, body").animate({
-                scrollTop: $("#buttonScroll")
+                scrollTop: $("#buttonScroll").offset()
             }, 2000);
         });
     }
