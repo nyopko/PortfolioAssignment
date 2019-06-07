@@ -163,6 +163,10 @@ i{
         /* margin-top: 40%; */
       }
 
+      .profilePic{
+          margin-bottom: 10%;
+      }
+
 
     html {
         margin-left: calc(100vw - 100%);
