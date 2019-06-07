@@ -9,7 +9,12 @@
 #introText{
     padding-top: 20vh;
     font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+}
 
+#introDescription{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
 }
 
 #contactText{
