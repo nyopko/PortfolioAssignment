@@ -158,5 +158,10 @@ i{
         margin-left: calc(100vw - 100%);
         margin-right: 0;
         overflow: auto;
+        background-color: black;
+    }
+
+    #aboutRedirect{
+        padding-bottom: 20%;
     }
 }
