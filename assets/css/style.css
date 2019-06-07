@@ -146,7 +146,6 @@ i{
 
       #myWork{
         padding-top: 75%;
-        margin-top: 20%;
       }
 
       #aboutMe{
@@ -157,6 +156,10 @@ i{
 
       #aboutMeIntro{
           padding-top: 45%;
+      }
+
+      #workIntro{
+        margin-top: 20%;
       }
 
 
